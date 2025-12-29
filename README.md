@@ -125,7 +125,10 @@ VITE_API_BASE_URL=http://localhost:5000/api
 ```bash
 npm run dev
 ```
-
+Frontend runs on:
+```
+http://localhost:5173
+```
 ---
 
 ## 📜 License
