@@ -50,5 +50,93 @@ Job seekers can search and apply for jobs, while employers can post jobs, manage
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Installation & Setup
+
+Follow the steps below to run **JobHunt** locally on your system.
+
+---
+
+## 🧩 Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v16 or above)
+- npm or yarn
+- MongoDB (local or MongoDB Atlas)
+- Git
+
+---
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/vishalbhagat45/JobHunt.git
+cd JobHunt
+```
+
+---
+
+## 🔧 Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+### 🔐 Create `.env` file in `backend` folder
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+CLIENT_URL=http://localhost:5173
+```
+
+### ▶️ Start Backend Server
+
+```bash
+npm start
+```
+
+Backend runs on:
+```
+http://localhost:5000
+```
+
+---
+
+## 🎨 Frontend Setup
+
+Open a new terminal:
+
+```bash
+cd frontend
+npm install
+```
+
+### 🔐 Create `.env` file in `frontend` folder
+
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+### ▶️ Start Frontend Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, please ⭐ star the repository.
+
+
 
